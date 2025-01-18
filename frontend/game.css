@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.score-box {
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border: 3px solid #ff6600;
+    color: #ff6600;
+    box-shadow: 0 0 10px #ff6600;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.question-box, .answer-box {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border: 3px solid #00ccff;
+    box-shadow: 0 0 10px #00ccff;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.agree-btn, .disagree-btn {
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.agree-btn {
+    border: 2px solid #00ccff;
+    background: transparent;
+    color: #00ccff;
+}
+
+.agree-btn:hover {
+    background: #00ccff;
+    color: white;
+    box-shadow: 0 0 15px #00ccff;
+}
+
+.disagree-btn {
+    border: 2px solid #ff6600;
+    background: transparent;
+    color: #ff6600;
+}
+
+.disagree-btn:hover {
+    background: #ff6600;
+    color: white;
+    box-shadow: 0 0 15px #ff6600;
+}
